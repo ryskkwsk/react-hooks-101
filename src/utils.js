@@ -1,1 +1,1 @@
-export const timeCurrentIso8601 = () => (new DataCue().toISOString());
+export const timeCurrentIso8601 = () => (new Date().toISOString());
