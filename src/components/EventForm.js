@@ -4,7 +4,7 @@ import {
     CREATE_EVENT,
     DELETE_ALL_EVENT,
     ADD_OPERATION_LOG,
-    DELETE_ALL_OPERATION_LOGS
+    DELETE_ALL_OPERATION_LOGS,
 }from '../actions';
 import { timeCurrentIso8601 } from '../utils';
 
