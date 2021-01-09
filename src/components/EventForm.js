@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 
 import {
     CREATE_EVENT,
-    DELETE_ALL_EVENT,
+    DELETE_ALL_EVENTS,
     ADD_OPERATION_LOG,
     DELETE_ALL_OPERATION_LOGS,
 }from '../actions';
@@ -38,7 +38,7 @@ const EventForm = () => {
         e.preventDefault();
         const result = window.confirm('全てのイベントを本当に削除しても良いですか？');
         if (result) {
-            dispatch({ type: DELETE_ALL_EVENT });
+            dispatch({ type: DELETE_ALL_EVENTS });
 
             dispatch({
                 type: ADD_OPERATION_LOG,
