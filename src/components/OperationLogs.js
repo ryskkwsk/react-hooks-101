@@ -5,7 +5,6 @@ import AppContext from '../contexts/AppContext';
 const OperationLogs = () => {
 
     const { state } = useContext(AppContext);
-    console.log(state);
     return (
         <>
             <h4>操作ログ一覧</h4>
